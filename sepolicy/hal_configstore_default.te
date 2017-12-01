@@ -1,0 +1,1 @@
+allow hal_configstore_default sysfs_debug_untrusted:file { write open };
