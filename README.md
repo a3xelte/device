@@ -2,7 +2,8 @@
 device-tree: a3xeltexx
 rom: LineageOS based
 type: phone
-maintener: Victor Lourme
+created by: Victor Lourme
+maintainer: NetfariousIntent
 license: Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 
 force-push: allowed (warning)
