@@ -168,7 +168,7 @@ PRODUCT_PACKAGES += \
     
 # media build properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.sf.omx-plugin=libffmpeg_omx.so,libsomxcore.so \
+       media.sf.omx-plugin=libffmpeg_omx.so,libsomxcore.so \
     persist.media.treble_omx=false
 
 #########################################
