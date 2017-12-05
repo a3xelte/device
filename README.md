@@ -2,8 +2,7 @@
 device-tree: a3xeltexx
 rom: LineageOS based
 type: phone
-created by: Victor Lourme
-maintainer: NetfariousIntent
+created by NetfariousIntent and xEmre66
 license: Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 
 force-push: allowed (warning)
@@ -22,5 +21,6 @@ specifications:
 - gps: GPS + A-GPS + GLONASS
 - sensors: accelerometer / proximity / compass
 
-Copyright (C) 2017 Victor Lourme <contact@zeroside.co>
+Copyright (C) 2017 Emre Simsek <emresimsek6643@gmail.com>
+Copyright (C) 2017 NetfariousIntent 
 ```
