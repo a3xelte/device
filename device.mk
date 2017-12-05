@@ -1,7 +1,7 @@
 ###
 ##
 # Device tree for Samsung Galaxy A3 2016 with Exynos7580 SoC
-# Copyright (C) 2017, Victor Lourme <contact@zeroside.co>
+# Copyright (C) 2017, Emre Simsek <emresimsek6643@gmail.com>
 ##
 ###
 
@@ -165,6 +165,11 @@ PRODUCT_COPY_FILES += \
 # Packages / OMX
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0
+    
+# media build properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.sf.omx-plugin=libffmpeg_omx.so,libsomxcore.so \
+    persist.media.treble_omx=false
 
 #########################################
 ### Graphics
