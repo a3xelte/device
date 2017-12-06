@@ -1,6 +1,6 @@
 ```
 device-tree: a3xeltexx
-rom: LineageOS based
+Base: Android O (8.0.0)
 type: phone
 created by NetfariousIntent and xEmre66
 license: Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
@@ -11,6 +11,7 @@ specifications:
 - size: 4.7"
 - camera: 13MP / 1080p / autofocus / flashlight
 - soc: Exynos7580
+- clock: 8x 1.6GHz non big.LITTLE architecture
 - ram: 1.5GB RAM
 - battery: 2300mAh non-removable
 - default os: TouchWiz 5.1.1 upgradable to 7.0
