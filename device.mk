@@ -166,6 +166,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0
     
+# OpenMAX shim
+ +PRODUCT_PACKAGES += \
+    libOMX.Exynos_shim
+    
 # media build properties
 PRODUCT_PROPERTY_OVERRIDES += \
        media.sf.omx-plugin=libffmpeg_omx.so,libsomxcore.so \
