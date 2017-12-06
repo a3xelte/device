@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0
     
 # OpenMAX shim
- +PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     libOMX.Exynos_shim
     
 # media build properties
